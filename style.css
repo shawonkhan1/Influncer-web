@@ -75,13 +75,13 @@ ul{
     }
     .banner-row2 img{
         /* position: relative; */
-        width: 100%;
-        margin-right: 100px;
+        width: 90%;
+        margin-right: 50px;
        
     }
     .banner-container{
-        margin-left: 90px;
-        margin-right: 90px;
+        margin-left: 20px;
+        margin-right: 10px;
     }
     .banner-h{
         font-size: 2rem;
@@ -90,6 +90,9 @@ ul{
     }
     .banner-row1{
         margin-bottom: 50px;
+    }
+    .banner-btn{
+        margin-left: 70px;
     }
    
 }

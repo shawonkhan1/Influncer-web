@@ -30,8 +30,9 @@ ul{
 }
 .banner-row2{
     background-image: url("./images/Circle\ design.svg");
-    position: relative;
     top: 50px;
+    height: 475px;
+    width: 475px;
 }
 .banner-h{
     font-size: 3.5rem;

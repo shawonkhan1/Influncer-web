@@ -74,15 +74,55 @@ ul{
    
 }
 
+/* start popular collection  */
+.title-popular{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.first-card{
+    border: 1px solid black;
+    width: 300px;
+    height: 436px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.card-p{
+    font-size: .9rem;
+    color: hsla(240,5%,49%,1);
+    font-weight: 700;
+}
+
+.card-h{
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.collection-container{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
 
 
 /* mobile fon responsive */
 @media screen and (max-width:576px) {
     .nav-container,
      .banner-container,
+     .collection-container,
      .logo-container{
         flex-direction: column;
         gap: 10px;
+    }
+
+    .collection-container{
+        align-items: center;
     }
     .nav-container{
         margin-left: 20px;
